@@ -8,7 +8,7 @@ As a customer, I would like to move all my existing CRM attachments stored in No
 These Logic Apps can be used together with the Attachment Management solution available in <a href="https://appsource.microsoft.com/en-us/product/dynamics-365/microsoft_labs.96257e65-dbbe-43db-b775-77cf1609530c">AppSource</a>.
 
 ## Move CRM Note Attachments to Azure Blob:
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/anilvem1/LAMoveCRMAttachmentsToBlob/master/LA-MoveCRMEmail-AttachmentsToBlob.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fgsureshqa%2FLAMoveCRMAttachmentsToBlob%2Fmaster%2FLA-MoveCRMEmail-AttachmentsToBlob.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
 ## Move CRM Email Attachments to Azure Blob:
