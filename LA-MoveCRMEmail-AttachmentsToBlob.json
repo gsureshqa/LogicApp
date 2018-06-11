@@ -125,7 +125,7 @@
                       "folderPath": "/EmailAttachments",
                       "name": "@{concat(items('For_each')?['activitymimeattachmentid'], '_', items('For_each')?['attachmentid']?)['filename']}"
                     },
-                    "body": "@base64ToBinary(json(items('For_each')?['attachmentid'])['body'])"
+                    "body": "@base64ToBinary((items('For_each')?['attachmentid'])['body'])"
                   },
                   "runAfter": {},
                   "runtimeConfiguration": {
